@@ -16,9 +16,9 @@ import (
 )
 
 func check(err error) {
-    if err != nil {
-        panic(err)
-    }
+	if err != nil {
+		panic(err)
+	}
 }
 
 func config(k string) string {
@@ -148,7 +148,7 @@ func router() *mux.Router {
 	check(err)
 	for _, f := range entries {
 		if !strings.Contains(f.Name(), ".") {
-			router.HandleFunc("/" + f.Name(), static).Methods("GET")
+			router.HandleFunc("/"+f.Name(), static).Methods("GET")
 		}
 	}
 	router.NotFoundHandler = http.HandlerFunc(notFound)
