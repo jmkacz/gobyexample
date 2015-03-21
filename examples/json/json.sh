@@ -14,8 +14,7 @@ a
 apple
 {"apple":5,"lettuce":7}
 
-
 # We've covered the basic of JSON in Go here, but check
-# out the [JSON and Go](http://blog.golang.org/2011/01/json-and-go.html)
+# out the [JSON and Go](http://blog.golang.org/json-and-go)
 # blog post and [JSON package docs](http://golang.org/pkg/encoding/json/)
 # for more.
