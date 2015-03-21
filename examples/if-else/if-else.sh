@@ -1,4 +1,4 @@
-$ go run if-else.go 
+$ go run if-else.go
 7 is odd
 8 is divisible by 4
 9 has 1 digit

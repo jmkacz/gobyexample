@@ -3,7 +3,7 @@
 # `BAR` is empty.
 $ go run environment-variables.go
 FOO: 1
-BAR: 
+BAR:
 
 # The list of keys in the environment will depend on your
 # particular machine.

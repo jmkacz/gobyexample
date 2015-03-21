@@ -1,6 +1,6 @@
 # Running our program shows a list sorted by string
 # length, as desired.
-$ go run sorting-by-functions.go 
+$ go run sorting-by-functions.go
 [kiwi peach banana]
 
 # By following this same pattern of creating a custom

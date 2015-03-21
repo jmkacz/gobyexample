@@ -1,7 +1,7 @@
 # When we run the program the `"ping"` message is
 # successfully passed from one goroutine to another via
 # our channel.
-$ go run channels.go 
+$ go run channels.go
 ping
 
 # By default sends and receives block until both the

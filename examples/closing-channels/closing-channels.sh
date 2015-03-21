@@ -1,4 +1,4 @@
-$ go run closing-channels.go 
+$ go run closing-channels.go
 sent job 1
 received job 1
 sent job 2

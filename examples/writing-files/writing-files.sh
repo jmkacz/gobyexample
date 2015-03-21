@@ -1,5 +1,5 @@
 # Try running the file-writing code.
-$ go run writing-files.go 
+$ go run writing-files.go
 wrote 5 bytes
 wrote 7 bytes
 wrote 9 bytes

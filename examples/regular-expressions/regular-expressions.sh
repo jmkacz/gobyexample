@@ -1,4 +1,4 @@
-$ go run regular-expressions.go 
+$ go run regular-expressions.go
 true
 true
 peach

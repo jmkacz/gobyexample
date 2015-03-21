@@ -1,3 +1,3 @@
-$ go run channel-buffering.go 
+$ go run channel-buffering.go
 buffered
 channel
