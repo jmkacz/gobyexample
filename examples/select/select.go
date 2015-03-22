@@ -8,7 +8,6 @@ import "time"
 import "fmt"
 
 func main() {
-
 	// For our example we'll select across two channels.
 	c1 := make(chan string)
 	c2 := make(chan string)

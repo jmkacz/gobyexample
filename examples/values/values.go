@@ -7,7 +7,6 @@ package main
 import "fmt"
 
 func main() {
-
 	// Strings, which can be added together with `+`.
 	fmt.Println("go" + "lang")
 

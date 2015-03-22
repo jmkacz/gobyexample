@@ -12,7 +12,6 @@ import "fmt"
 var p = fmt.Println
 
 func main() {
-
 	// Here's a sample of the functions available in
 	// `strings`. Note that these are all functions from
 	// package, not methods on the string object itself.

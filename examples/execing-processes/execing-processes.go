@@ -15,7 +15,6 @@ import "os"
 import "os/exec"
 
 func main() {
-
 	// For our example we'll exec `ls`. Go requires an
 	// absolute path to the binary we want to execute, so
 	// we'll use `exec.LookPath` to find it (probably

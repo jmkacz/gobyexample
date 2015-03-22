@@ -10,7 +10,6 @@ import b64 "encoding/base64"
 import "fmt"
 
 func main() {
-
 	// Here's the `string` we'll encode/decode.
 	data := "abc123!?$*&()'-=@~"
 

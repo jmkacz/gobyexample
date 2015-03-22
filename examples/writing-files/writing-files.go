@@ -17,7 +17,6 @@ func check(e error) {
 }
 
 func main() {
-
 	// To start, here's how to dump a string (or just
 	// bytes) into a file.
 	d1 := []byte("hello\ngo\n")
@@ -54,5 +53,4 @@ func main() {
 	// Use `Flush` to ensure all buffered operations have
 	// been applied to the underlying writer.
 	w.Flush()
-
 }

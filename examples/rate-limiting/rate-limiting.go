@@ -10,7 +10,6 @@ import "time"
 import "fmt"
 
 func main() {
-
 	// First we'll look at basic rate limiting. Suppose
 	// we want to limit our handling of incoming requests.
 	// We'll serve these requests off a channel of the

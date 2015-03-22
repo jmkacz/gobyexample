@@ -9,7 +9,6 @@ import "time"
 import "fmt"
 
 func main() {
-
 	// For our example, suppose we're executing an external
 	// call that returns its result on a channel `c1`
 	// after 2s.
@@ -39,6 +38,7 @@ func main() {
 		time.Sleep(time.Second * 2)
 		c2 <- "result 2"
 	}()
+
 	select {
 	case res := <-c2:
 		fmt.Println(res)

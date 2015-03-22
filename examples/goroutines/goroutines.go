@@ -11,7 +11,6 @@ func f(from string) {
 }
 
 func main() {
-
 	// Suppose we have a function call `f(s)`. Here's how
 	// we'd call that in the usual way, running it
 	// synchronously.

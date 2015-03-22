@@ -21,7 +21,6 @@ func check(e error) {
 }
 
 func main() {
-
 	// Perhaps the most basic file reading task is
 	// slurping a file's entire contents into memory.
 	dat, err := ioutil.ReadFile("/tmp/dat")
@@ -80,5 +79,4 @@ func main() {
 	// be scheduled immediately after `Open`ing with
 	// `defer`).
 	f.Close()
-
 }

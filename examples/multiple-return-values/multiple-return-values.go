@@ -13,7 +13,6 @@ func vals() (int, int) {
 }
 
 func main() {
-
 	// Here we use the 2 different return values from the
 	// call with _multiple assignment_.
 	a, b := vals()

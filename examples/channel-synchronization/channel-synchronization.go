@@ -20,7 +20,6 @@ func worker(done chan bool) {
 }
 
 func main() {
-
 	// Start a worker goroutine, giving it the channel to
 	// notify on.
 	done := make(chan bool, 1)

@@ -10,7 +10,6 @@ import "time"
 import "fmt"
 
 func main() {
-
 	// Timers represent a single event in the future. You
 	// tell the timer how long you want to wait, and it
 	// provides a channel that will be notified at that

@@ -20,7 +20,6 @@ func intSeq() func() int {
 }
 
 func main() {
-
 	// We call `intSeq`, assigning the result (a function)
 	// to `nextInt`. This function value captures its
 	// own `i` value, which will be updated each time

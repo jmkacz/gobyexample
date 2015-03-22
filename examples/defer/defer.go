@@ -12,7 +12,6 @@ import "os"
 // and then close when we're done. Here's how we could
 // do that with `defer`.
 func main() {
-
 	// Immediately after getting a file object with
 	// `createFile`, we defer the closing of that file
 	// with `closeFile`. This will be executed at the end
@@ -35,7 +34,6 @@ func createFile(p string) *os.File {
 func writeFile(f *os.File) {
 	fmt.Println("writing")
 	fmt.Fprintln(f, "data")
-
 }
 
 func closeFile(f *os.File) {

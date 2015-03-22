@@ -8,7 +8,6 @@ package main
 import "os"
 
 func main() {
-
 	// We'll use panic throughout this site to check for
 	// unexpected errors. This is the only program on the
 	// site designed to panic.

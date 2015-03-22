@@ -16,7 +16,6 @@ import "fmt"
 // have type `error`, a built-in interface.
 func f1(arg int) (int, error) {
 	if arg == 42 {
-
 		// `errors.New` constructs a basic `error` value
 		// with the given error message.
 		return -1, errors.New("can't work with 42")
@@ -43,7 +42,6 @@ func (e *argError) Error() string {
 
 func f2(arg int) (int, error) {
 	if arg == 42 {
-
 		// In this case we use `&argError` syntax to build
 		// a new struct, supplying values for the two
 		// fields `arg` and `prob`.
@@ -53,7 +51,6 @@ func f2(arg int) (int, error) {
 }
 
 func main() {
-
 	// The two loops below test out each of our
 	// error-returning functions. Note that the use of an
 	// inline error check on the `if` line is a common

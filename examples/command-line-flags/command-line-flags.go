@@ -12,7 +12,6 @@ import "flag"
 import "fmt"
 
 func main() {
-
 	// Basic flag declarations are available for string,
 	// integer, and boolean options. Here we declare a
 	// string flag `word` with a default value `"foo"`

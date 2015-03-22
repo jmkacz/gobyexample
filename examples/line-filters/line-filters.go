@@ -16,7 +16,6 @@ import (
 )
 
 func main() {
-
 	// Wrapping the unbuffered `os.Stdin` with a buffered
 	// scanner gives us a convenient `Scan` method that
 	// advances the scanner to the next token; which is

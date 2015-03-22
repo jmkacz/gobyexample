@@ -7,7 +7,6 @@ package main
 import "fmt"
 
 func main() {
-
 	// Here we use `range` to sum the numbers in a slice.
 	// Arrays work like this too.
 	nums := []int{2, 3, 4}

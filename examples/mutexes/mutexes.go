@@ -15,7 +15,6 @@ import (
 )
 
 func main() {
-
 	// For our example the `state` will be a map.
 	var state = make(map[int]int)
 
@@ -33,7 +32,6 @@ func main() {
 		go func() {
 			total := 0
 			for {
-
 				// For each read we pick a key to access,
 				// `Lock()` the `mutex` to ensure
 				// exclusive access to the `state`, read

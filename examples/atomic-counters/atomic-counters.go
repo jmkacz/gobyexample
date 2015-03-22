@@ -13,7 +13,6 @@ import "sync/atomic"
 import "runtime"
 
 func main() {
-
 	// We'll use an unsigned integer to represent our
 	// (always-positive) counter.
 	var ops uint64 = 0

@@ -12,7 +12,6 @@ type point struct {
 }
 
 func main() {
-
 	// Go offers several printing "verbs" designed to
 	// format general Go values. For example, this prints
 	// an instance of our `point` struct.

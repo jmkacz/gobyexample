@@ -9,7 +9,6 @@ import "strconv"
 import "fmt"
 
 func main() {
-
 	// With `ParseFloat`, this `64` tells how many bits of
 	// precision to parse.
 	f, _ := strconv.ParseFloat("1.234", 64)

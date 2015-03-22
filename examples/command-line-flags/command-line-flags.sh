@@ -25,7 +25,9 @@ tail: []
 # any flags.
 $ ./command-line-flags -word=opt a1 a2 a3
 word: opt
-...
+numb: 42
+fork: false
+svar: bar
 tail: [a1 a2 a3]
 
 # Note that the `flag` package requires all flags to
@@ -53,7 +55,10 @@ Usage of ./command-line-flags:
 $ ./command-line-flags -wat
 flag provided but not defined: -wat
 Usage of ./command-line-flags:
-...
+  -fork=false: a bool
+  -numb=42: an int
+  -svar="bar": a string var
+  -word="foo": a string
 
 # Next we'll look at environment variables, another common
 # way to parameterize programs.

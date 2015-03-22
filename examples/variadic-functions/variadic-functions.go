@@ -19,7 +19,6 @@ func sum(nums ...int) {
 }
 
 func main() {
-
 	// Variadic functions can be called in the usual way
 	// with individual arguments.
 	sum(1, 2)

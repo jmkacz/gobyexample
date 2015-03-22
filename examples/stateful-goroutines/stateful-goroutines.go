@@ -35,7 +35,6 @@ type writeOp struct {
 }
 
 func main() {
-
 	// As before we'll count how many operations we perform.
 	var ops int64 = 0
 

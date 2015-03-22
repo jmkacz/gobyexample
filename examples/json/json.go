@@ -20,7 +20,6 @@ type Response2 struct {
 }
 
 func main() {
-
 	// First we'll look at encoding basic data types to
 	// JSON strings. Here are some examples for atomic
 	// values.

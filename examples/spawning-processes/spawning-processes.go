@@ -12,7 +12,6 @@ import "io/ioutil"
 import "os/exec"
 
 func main() {
-
 	// We'll start with a simple command that takes no
 	// arguments or input and just prints something to
 	// stdout. The `exec.Command` helper creates an object

@@ -9,7 +9,6 @@ import "fmt"
 import "time"
 
 func main() {
-
 	// Use `time.Now` with `Unix` or `UnixNano` to get
 	// elapsed time since the Unix epoch in seconds or
 	// nanoseconds, respectively.

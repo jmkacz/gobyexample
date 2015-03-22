@@ -83,7 +83,6 @@ func Map(vs []string, f func(string) string) []string {
 }
 
 func main() {
-
 	// Here we try out our various collection functions.
 	var strs = []string{"peach", "apple", "pear", "plum"}
 
@@ -107,5 +106,4 @@ func main() {
 	// but you can also use named functions of the correct
 	// type.
 	fmt.Println(Map(strs, strings.ToUpper))
-
 }
